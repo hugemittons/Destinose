@@ -1,14 +1,14 @@
-$(document).ready(function() {
-  var city = document.getElementById('input');
-  var searchBox = new google.maps.places.SearchBox(city);
+// $(document).ready(function() {
+//   var city = document.getElementById('input');
+//   var searchBox = new google.maps.places.SearchBox(city);
 
-    google.maps.event.addDomListener(window, 'load', function() {
-  $("city").focus();
-    // $('./results').submit(function(){
-    // });
+//     google.maps.event.addDomListener(window, 'load', function() {
+//   $(city).focus();
+//     // $('./results').submit(function(){
+//     // });
 
-  });
-});
+//   });
+// });
 
 
 //   if (city) {

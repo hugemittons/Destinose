@@ -4,7 +4,9 @@
     <h2>
       The smart way to pick your <span class="next">next </span> travel destination
     </h2>
-    <a class="btn btn-primary btn-lg">Get started <%= link_to 'restart', restart_path %></a>
+    <%= link_to restart_path do %>
+    <div class="btn btn-primary btn-lg">Get started </div>
+    <% end %>
   </div>
 
 
